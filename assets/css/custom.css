@@ -58,6 +58,7 @@ a:hover {
   .nav-responsive .nav .nav-item {
     display: inline-block; } }
 .nav {
+  margin: .25rem 0;
   font-size: .85rem; }
 .nav .nav-item {
   border-left: 1px solid #3876a0; }
