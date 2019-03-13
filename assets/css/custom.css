@@ -57,6 +57,8 @@ a:hover {
     white-space: nowrap; }
   .nav-responsive .nav .nav-item {
     display: inline-block; } }
+.nav {
+  font-size: .85rem; }
 .nav .nav-item {
   border-left: 1px solid #3876a0; }
 .nav .nav-item:first-child, .nav .nav-item:only-child {
@@ -67,8 +69,6 @@ a:hover {
 .nav .nav-link.active {
   color: #df8c46; }
 
-.nav-top {
-  font-size: .85rem; }
 .nav-top .nav-item {
   border-left: 1px solid #fff; }
 .nav-top .nav-link {
