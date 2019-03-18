@@ -307,57 +307,8 @@ input[type="text"], input[type="email"], input[type="date"] {
   -moz-appearance: textfield;
   min-height: 2.5rem; }
 
-.breadcrumb {
-  font-size: 0.875rem;
-  font-weight: 300; }
-
-.card {
-  overflow: hidden;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  border-radius: 0; }
-.card .card-img-top {
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  border-radius: 0;
-  height: 170px;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s; }
-.card .card-title {
-  color: #000; }
-.card .card-text {
-  min-height: 2.5rem; }
-.card:hover, .card:active, .card:focus {
-  -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); }
-.card:hover .card-img-top, .card:active .card-img-top, .card:focus .card-img-top {
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1); }
-
-[data-toggle="collapse"].link:after {
+.dropdown-toggle::after {
   display: none; }
-[data-toggle="collapse"]:after {
-  float: right;
-  font-family: "FontAwesome" !important;
-  font-weight: 900;
-  line-height: 1; }
-[data-toggle="collapse"][aria-expanded="true"]:after {
-  content: '\f107'; }
-[data-toggle="collapse"][aria-expanded="false"]:after {
-  content: '\f105'; }
-[data-toggle="collapse"]:after {
-  content: '\f105'; }
-.pushy [data-toggle="collapse"][aria-expanded="true"]:after {
-  content: '\f107'; }
-.pushy [data-toggle="collapse"][aria-expanded="false"]:after {
-  content: '\f105'; }
-.pushy [data-toggle="collapse"]:after {
-  content: '\f105'; }
 
 /*! Pushy - v1.1.0 - 2017-1-30
 * Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.

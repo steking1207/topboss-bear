@@ -2202,7 +2202,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #f8f9fa; }
+  background-color: none; }
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
