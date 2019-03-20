@@ -6,14 +6,17 @@ html, body {
 
 body {
   position: relative;
+  background-color: #fff;
+  max-width: 640px;
+  min-height: 100%;
+  margin: 0 auto; }
+body > .w-100 {
   background-position: center 0;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #fff;
-  min-height: 100%; }
-body#student {
+  background-size: cover; }
+body#student > .w-100 {
   background-image: url("../img/ui/bg-student.png"); }
-body#teacher {
+body#teacher > .w-100 {
   background-image: url("../img/ui/bg-teacher.png"); }
 
 a {
@@ -38,6 +41,15 @@ a:hover {
 .bg-login {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 1rem; }
+
+.logo-topboss {
+  max-width: 250px; }
+
+.img-character {
+  max-width: 75px; }
+
+.img-face {
+  max-width: 200px; }
 
 .table-sm {
   font-size: .85rem; }
@@ -224,28 +236,28 @@ a:hover {
     background-size: 32px, 38px; } }
 
 .icon-account {
-  width: 23px;
-  height: 27px;
+  width: 21px;
+  height: 24px;
   background-image: url("../img/ui/icon-account.png"); }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
   .icon-account {
     background-image: url("../img/ui/icon-account@2x.png");
-    -moz-background-size: 23px, 27px;
-    -o-background-size: 23px, 27px;
-    -webkit-background-size: 23px, 27px;
-    background-size: 23px, 27px; } }
+    -moz-background-size: 21px, 24px;
+    -o-background-size: 21px, 24px;
+    -webkit-background-size: 21px, 24px;
+    background-size: 21px, 24px; } }
 
 .icon-password {
-  width: 23px;
-  height: 27px;
+  width: 21px;
+  height: 24px;
   background-image: url("../img/ui/icon-password.png"); }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
   .icon-password {
     background-image: url("../img/ui/icon-password@2x.png");
-    -moz-background-size: 23px, 27px;
-    -o-background-size: 23px, 27px;
-    -webkit-background-size: 23px, 27px;
-    background-size: 23px, 27px; } }
+    -moz-background-size: 21px, 24px;
+    -o-background-size: 21px, 24px;
+    -webkit-background-size: 21px, 24px;
+    background-size: 21px, 24px; } }
 
 .bg-cyan {
   background-color: #3b9fa4; }
