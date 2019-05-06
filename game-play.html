@@ -1,0 +1,158 @@
+<!doctype html>
+<html  lang="zh-Hant-TW">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>啤酒供應鏈管理</title>
+    <meta name="keywords" content="">
+	<meta name="description" content="">
+    <!--fb og-->
+    <meta property="og:title" content="">
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content="">
+    <meta content="zh_TW" property="og:locale">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="assets/js/vendor/jquery.min.js"></script>
+</head>
+
+<body id="student">
+    <div class="d-flex w-100 h-100 mx-auto flex-column">
+        <div class="mb-auto p-3">
+            <div class="row">
+                <div class="col header-first">
+                    <a class="btn px-0 btn-outline text-white" href="javascript:void();">
+                        <i class="icon-btn-back mr-3"></i> 首頁
+                    </a>
+                </div>
+                <div class="col header-first text-right">
+                    <a class="btn px-0 btn-outline" href="javascript:void();">
+                        <i class="icon-btn-more"></i>
+                    </a>
+                </div>
+                <div class="col-12 header-second">
+                    <div class="row align-items-end no-gutters">
+                        <div class="col-5">
+                            <div class="text-center sub-title mb-2">學員端平台</div>
+                        </div>
+                        <div class="col-7">
+                            <img class="img-fluid" src="assets/img/ui/title.png" srcset="assets/img/ui/title@2x.png 2x" alt="啤酒供應鏈管理">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="bg-white h-100 px-5 py-3">
+            <div class="h4 text-primary border-bottom-2">
+                <i class="icon-common-gear"></i> 進行遊戲
+            </div>
+
+            <div class="row no-gutters py-3 border-bottom border-info">
+                <div class="col-8 col-md-10">
+                    <div class="form-group row mb-2">
+                        <label class="col-12 py-0 col-form-label text-muted">遊戲名稱</label>
+                        <div class="col-12">
+                            <div class="form-control-plaintext py-0">SD</div>
+                        </div>
+                    </div>
+                    <div class="form-group row mb-2">
+                        <label class="col-12 py-0 col-form-label text-muted">腳色</label>
+                        <div class="col-12">
+                            <div class="form-control-plaintext py-0">零售商</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row mb-2">
+                        <label class="col-12 py-0 col-form-label text-muted">供應鏈名稱</label>
+                        <div class="col-12">
+                            <div class="form-control-plaintext py-0">一二三四五六七八九十</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="text-center">
+                        <img class="img-fluid" src="assets/img/ui/face-big-shortage.png" srcset="assets/img/ui/face-big-shortage@2x.png 2x" alt="">
+                        <div class="text-info font-weight-bold mt-2">
+                            庫存&lt;-50
+                        </div>
+                        <div class="lead text-danger font-weight-bold">遊戲結束</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <table class="table table-sm table-striped table-fixed" cellspacing="0" rules="all" border="1" id="GridView1" style="border-collapse:collapse;">
+                <thead>
+			<tr>
+				<th scope="col">週次</th><th scope="col">到貨量</th><th scope="col">庫存量</th><th scope="col">需求量</th><th scope="col">訂購量</th><th scope="col">當期成本</th><th scope="col">成本累計</th>
+			</tr>
+                </thead>
+                <tbody>
+                <tr class="text-right">
+				<td>1</td><td>4</td><td>4</td><td>4</td><td style="color:Red;font-weight:bold;">10</td><td>4</td><td>4</td>
+			</tr><tr class="text-right">
+				<td>2</td><td>4</td><td>4</td><td>4</td><td style="color:Red;font-weight:bold;">10</td><td>4</td><td>8</td>
+			</tr><tr class="text-right">
+				<td>3</td><td>4</td><td>8</td><td>0</td><td style="color:Red;font-weight:bold;">10</td><td>8</td><td>16</td>
+			</tr><tr class="text-right">
+				<td>4</td><td>4</td><td>-3</td><td>15</td><td style="color:Red;font-weight:bold;">10</td><td>6</td><td>22</td>
+			</tr><tr class="text-right">
+				<td>5</td><td>10</td><td>-8</td><td>15</td><td style="color:Red;font-weight:bold;">10</td><td>16</td><td>38</td>
+			</tr><tr class="text-right">
+				<td>6</td><td>10</td><td>-13</td><td>15</td><td style="color:Red;font-weight:bold;">20</td><td>26</td><td>64</td>
+			</tr><tr class="text-right">
+				<td>7</td><td>10</td><td>-18</td><td>15</td><td style="color:Red;font-weight:bold;">10</td><td>36</td><td>100</td>
+			</tr><tr class="text-right">
+				<td>8</td><td>10</td><td>-28</td><td>20</td><td style="color:Red;font-weight:bold;">20</td><td>56</td><td>156</td>
+			</tr><tr class="text-right">
+				<td>9</td><td>10</td><td>-38</td><td>20</td><td style="color:Red;font-weight:bold;">10</td><td>76</td><td>232</td>
+			</tr><tr class="text-right">
+				<td>10</td><td>20</td><td>-38</td><td>20</td><td style="color:Red;font-weight:bold;">20</td><td>76</td><td>308</td>
+			</tr><tr class="text-right">
+				<td>11</td><td>10</td><td>-36</td><td>8</td><td style="color:Red;font-weight:bold;">10</td><td>72</td><td>380</td>
+			</tr><tr class="text-right">
+				<td>12</td><td>20</td><td>-24</td><td>8</td><td style="color:Red;font-weight:bold;">20</td><td>48</td><td>428</td>
+			</tr><tr class="text-right">
+				<td>13</td><td>10</td><td>-22</td><td>8</td><td style="color:Red;font-weight:bold;">10</td><td>44</td><td>472</td>
+			</tr>
+                </tbody>
+		</table>
+            <div class="font-small">
+                <span class="mr-2"><i class="fas fa-sm fa-square text-info"></i> 週數:26</span>
+                <span class="mr-2"><i class="fas fa-sm fa-square text-info"></i> 訂單處理週數:26</span>
+                <span><i class="fas fa-sm fa-square text-info"></i> 上游的送貨週數:26</span>
+            </div>
+            <div class="btn-group btn-group-justified my-2">
+                <a class="btn btn-lg btn-danger" href="javascript:void();"><i class="fas fa-pause"></i> 20秒</a>
+                <a class="btn btn-lg btn-success" href="javascript:void();">送出</a>
+            </div>
+            <div class="btn-group btn-group-justified my-2">
+                <a class="btn btn-lg btn-danger" href="javascript:void();">自動填0</a>
+            </div>
+            <div class="btn-group btn-group-justified my-2">
+                <a class="btn btn-lg btn-success" href="javascript:void();">傳送成功</a>
+            </div>
+            <div class="form-group row">
+                <label for="" class="col-2 col-form-label">Week5</label>
+                <div class="col-10">
+                    <input type="number" class="form-control border" id="" placeholder="請輸入訂購量">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- global -->
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+</html>
