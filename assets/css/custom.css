@@ -102,7 +102,7 @@ a:hover {
 
 .table-fixed tbody {
   display: block;
-  height: 150px;
+  height: 120px;
   overflow: auto; }
 .table-fixed thead, .table-fixed tbody tr {
   display: table;

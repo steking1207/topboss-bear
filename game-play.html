@@ -55,24 +55,24 @@
                 <i class="icon-common-gear"></i> 進行遊戲
             </div>
 
-            <div class="row no-gutters py-3 border-bottom border-info">
+            <div class="row no-gutters pt-3">
                 <div class="col-8 col-md-10">
-                    <div class="form-group row mb-2">
-                        <label class="col-12 py-0 col-form-label text-muted">遊戲名稱</label>
-                        <div class="col-12">
+                    <div class="row no-gutters mb-1">
+                        <label class="col-6 py-0 col-form-label text-muted">遊戲名稱</label>
+                        <div class="col-6">
                             <div class="form-control-plaintext py-0">SD</div>
                         </div>
                     </div>
-                    <div class="form-group row mb-2">
-                        <label class="col-12 py-0 col-form-label text-muted">腳色</label>
-                        <div class="col-12">
+                    <div class="row no-gutters mb-1">
+                        <label class="col-6 py-0 col-form-label text-muted">角色</label>
+                        <div class="col-6">
                             <div class="form-control-plaintext py-0">零售商</div>
                         </div>
                     </div>
 
-                    <div class="form-group row mb-2">
-                        <label class="col-12 py-0 col-form-label text-muted">供應鏈名稱</label>
-                        <div class="col-12">
+                    <div class="row no-gutters mb-1">
+                        <label class="col-6 py-0 col-form-label text-muted">供應鏈名稱</label>
+                        <div class="col-6">
                             <div class="form-control-plaintext py-0">一二三四五六七八九十</div>
                         </div>
                     </div>
@@ -81,10 +81,16 @@
                 <div class="col-4 col-md-2">
                     <div class="text-center">
                         <img class="img-fluid" src="assets/img/ui/face-big-shortage.png" srcset="assets/img/ui/face-big-shortage@2x.png 2x" alt="">
-                        <div class="text-info font-weight-bold mt-2">
-                            庫存&lt;-50
-                        </div>
-                        <div class="lead text-danger font-weight-bold">遊戲結束</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters mb-2 pb-3 align-items-center border-bottom border-info">
+                <div class="col-8 col-md-10">
+                    <div class="lead text-danger font-weight-bold">遊戲結束</div>
+                </div>
+                <div class="col-4 col-md-2 text-center">
+                    <div class="text-info font-weight-bold">
+                        庫存&lt;-50
                     </div>
                 </div>
             </div>
@@ -127,19 +133,13 @@
                 </tbody>
 		</table>
             <div class="font-small">
-                <span class="mr-2"><i class="fas fa-sm fa-square text-info"></i> 週數:26</span>
-                <span class="mr-2"><i class="fas fa-sm fa-square text-info"></i> 訂單處理週數:26</span>
-                <span><i class="fas fa-sm fa-square text-info"></i> 上游的送貨週數:26</span>
+                <span class="mr-1"><i class="fas fa-sm fa-square text-info"></i> 週數:26</span>
+                <span class="mr-1"><i class="fas fa-sm fa-square text-info"></i> 訂單處理週數:26</span>
+                <span><i class="fas fa-sm fa-square text-info"></i> 上游送貨週數:26</span>
             </div>
             <div class="btn-group btn-group-justified my-2">
                 <a class="btn btn-lg btn-danger" href="javascript:void();"><i class="fas fa-pause"></i> 20秒</a>
-                <a class="btn btn-lg btn-success" href="javascript:void();">送出</a>
-            </div>
-            <div class="btn-group btn-group-justified my-2">
-                <a class="btn btn-lg btn-danger" href="javascript:void();">自動填0</a>
-            </div>
-            <div class="btn-group btn-group-justified my-2">
-                <a class="btn btn-lg btn-success" href="javascript:void();">傳送成功</a>
+                <a class="btn btn-lg btn-info" href="javascript:void();">送出</a>
             </div>
             <div class="form-group row">
                 <label for="" class="col-2 col-form-label">Week5</label>
@@ -148,6 +148,12 @@
                 </div>
             </div>
         </div>
+<!--
+        <div class="fixed-bottom w-100 bg-white px-5 py-2">
+            <h3><span class="badge badge-danger d-block">自動填0</span></h3>
+            <h3><span class="badge badge-success d-block">傳送成功</span></h3>
+        </div>
+-->
     </div>
 
     <!-- global -->
