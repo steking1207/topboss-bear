@@ -14,10 +14,16 @@ body > .w-100 {
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: cover; }
+body#student {
+  background-color: #2dbfae; }
 body#student > .w-100 {
-  background-image: url("../img/ui/bg-student.png"); }
+  background-image: url("../img/ui/bg-student.png");
+  background-color: #2dbfae; }
+body#teacher {
+  background-color: #6cc96c; }
 body#teacher > .w-100 {
-  background-image: url("../img/ui/bg-teacher.png"); }
+  background-image: url("../img/ui/bg-teacher.png");
+  background-color: #6cc96c; }
 
 a {
   -moz-transition: all 0.2s ease;
@@ -26,6 +32,12 @@ a {
   transition: all 0.2s ease; }
 a:hover {
   text-decoration: none; }
+
+.bg-student {
+  background-color: #2dbfae; }
+
+.bg-teacher {
+  background-color: #6cc96c; }
 
 .title {
   position: relative;
@@ -108,6 +120,9 @@ a:hover {
   display: table;
   width: 100%;
   table-layout: fixed; }
+@media (min-width: 768px) {
+  .table-fixed thead {
+    width: calc( 100% - 18px); } }
 
 .sub-title {
   color: #fff;
