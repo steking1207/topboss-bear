@@ -14,12 +14,12 @@ body > .w-100 {
   background-position: center 0;
   background-repeat: no-repeat;
   background-size: cover; }
-body#student {
+body#student.index {
   background-color: #2dbfae; }
 body#student > .w-100 {
   background-image: url("../img/ui/bg-student.png");
   background-color: #2dbfae; }
-body#teacher {
+body#teacher.index {
   background-color: #6cc96c; }
 body#teacher > .w-100 {
   background-image: url("../img/ui/bg-teacher.png");
